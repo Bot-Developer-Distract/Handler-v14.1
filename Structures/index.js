@@ -14,6 +14,11 @@ const client = new Client({
     rest: { timeout: ms("1m") }
 })
 
+
+client.colorO = "#5e5bf7"; client.colorR = "#0b8519";
+client.colorW = "#b41c1d"; client.colorE = "#f76d4b";
+
+
 client.commands = new Collection(); 
 client.slashData = new Collection();
 
